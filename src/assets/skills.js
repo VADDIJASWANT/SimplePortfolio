@@ -1,7 +1,14 @@
+import responsiveImage from './responsive.png';
+import jsLogoImage from './jsLogo.png';
+import csharpImage from './Csharp.png';
+import reactImage from './react.svg';
+import pythonImage from './Python.png';
+import sqlImage from './sql.png';
+
 export default [
     {
         Name: 'Responsive Web Design',
-        Logo: './src/assets/responsive.png',
+        Logo: responsiveImage,
         additionalContents:{
             Course:"",
             Description:"Responsive web design wasn’t the initial coding skill I acquired. I undertook a certification course on it through freeCodeCamp. At first, it seemed straightforward, but as time has passed, I’ve realized its complexity. There’s always something new to discover in this field, which is why my relationship with it oscillates between love and frustration.",
@@ -14,7 +21,7 @@ export default [
     },
     {
         Name: 'Javascript',
-        Logo: './src/assets/jsLogo.png',
+        Logo: jsLogoImage,
         additionalContents:{
             Course:"",
             Description: "JavaScript is a programming language that I hold dear. The majority of my professional tasks are intertwined with it. I’ve earned certifications in JavaScript from platforms like freeCodeCamp and HackerRank.",
@@ -30,7 +37,7 @@ export default [
     },
     {
         Name: 'Csharp',
-        Logo: './src/assets/Csharp.png',
+        Logo: csharpImage,
         additionalContents:{
             Course:"",
             Description: "My proficiency in C# developed while working with the ASP.NET framework in my job. Having prior knowledge of Java expedited my transition to C#. I am not only adept at but also comfortable with the C# language.",
@@ -40,7 +47,7 @@ export default [
     },
     {
         Name: 'ReactJS',
-        Logo: './src/assets/react.svg',
+        Logo: reactImage,
         additionalContents:{
             Course:"",
             Description: "ReactJS the most popular choice in the market. I have successfully completed a React course on Scrimba.com while managing my regular job. Although I lack professional experience with ReactJS, I am confident in my proficiency with it.",
@@ -56,7 +63,7 @@ export default [
     },
     {
         Name: 'Python',
-        Logo: './src/assets/Python.png',
+        Logo: pythonImage,
         additionalContents:{
             Course:"",
             Description: "Python is a language that I cherish. I have successfully completed the CS50P course to enhance my proficiency in it. I often engage in minor side projects using Python to accomplish various tasks. For instance, I once developed a Python script that accepts a CSS file path and a CSS class as inputs. This script adds the provided CSS class as a parent to all the selectors in the CSS file and rewrites the file. While I understand that this may not be a universal use case, Python’s versatility makes it ideal for creating solutions for unconventional scenarios like this one.",
@@ -66,7 +73,7 @@ export default [
     },
     {
         Name: 'SQL',
-        Logo: './src/assets/sql.png',
+        Logo: sqlImage,
         additionalContents:{
             Course:"",
             Description: "My knowledge of SQL has been acquired through YouTube tutorials and a course on FreeCodeCamp. I’ve applied this knowledge professionally in my job, specifically with MySQL. However, my journey with it has had its fair share of challenges and successes.",
