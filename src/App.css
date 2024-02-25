@@ -1,0 +1,30 @@
+:root{
+    font-size: 16px;
+    box-sizing: border-box;
+}
+*,*::before,*:after{
+    box-sizing: border-box;
+}
+.btn{
+    padding:0.8rem 1rem;
+    background-color:white;
+    border-radius:1rem;
+}
+.btn-primary {
+    transition: all 1s ease-in-out;
+}
+  
+.btn-primary.sending {
+background-color: lightblue;
+color: black;
+}
+
+.btn-primary.success {
+background-color: green;
+color: white;
+}
+
+.btn-primary.error {
+background-color: red;
+color: white;
+}
