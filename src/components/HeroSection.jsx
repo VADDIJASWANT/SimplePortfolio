@@ -13,7 +13,7 @@ export default function HeroSection(){
         <>
         <div id='Home' className="min-h-screen flex flex-col md:flex-row max-w-5xl mx-auto">
             {/* Name */}
-            <div className="font-kalam flex flex-col min-h-screen justify-center gap-3 text-left md:w-1/2">
+            <div className="font-kalam pl-[66px] flex flex-col min-h-screen justify-center gap-3 text-left md:w-1/2">
                 <p className="text-3xl font-light">Hi I am</p>
                 <h2 className="text-6xl font-bold">Jaswant Vaddi</h2>
                 <p className="text-3xl font-light">Full stack web developer</p>
@@ -23,7 +23,7 @@ export default function HeroSection(){
                 </div>
             </div>
             {/* About Me */}
-            <div className="min-h-screen font-kalam flex gap-5 flex-col justify-center text-left md:w-1/2">
+            <div className="min-h-screen pl-[66px] md:pl-0 pr-10 font-kalam flex gap-5 flex-col justify-center text-left md:w-1/2">
                 <h2 className="text-4xl">About Me</h2>
                 <p className="text-3xl font-light">
                 I come from the vibrant state of Andhra Pradesh, India. I have started my journey with a degree in Avionics,

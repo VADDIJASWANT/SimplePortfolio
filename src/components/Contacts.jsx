@@ -67,7 +67,7 @@ export default function Contacts() {
 
     return (
         <>
-        <div id='contacts' className="font-kalam justify-center min-h-screen max-w-5xl mx-auto flex flex-col gap-10 px-20 sm:px-5">
+        <div id='contacts' className="font-kalam justify-center min-h-screen max-w-5xl mx-auto flex flex-col gap-10 px-20">
             <p className='text-5xl font-bold'>Contact Me</p>
             <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-5'>
                 <input name='user_name' id="name" placeholder="Name" className="input input-bordered w-full min-w-xs md:max-w-[75%] p-3 rounded-lg" value={name} onChange={(e) => setName(e.target.value)} />

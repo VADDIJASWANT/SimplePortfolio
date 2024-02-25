@@ -43,7 +43,7 @@ export default function Skills(){
     })
     return(
         <>
-        <div id='skills' className="font-kalam justify-center min-h-screen max-w-5xl mx-auto flex flex-col gap-10 px-20 sm:px-5">
+        <div id='skills' className="font-kalam justify-center min-h-screen max-w-5xl mx-auto flex flex-col gap-10 px-20">
             <p className="text-5xl font-bold">My skill Set</p>
             <div className="flex flex-col sm:flex-row flex-wrap gap-5">
                 {Skillshtml}
